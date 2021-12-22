@@ -1,0 +1,11 @@
+.ui.segment.search-bar {
+  margin-top: 1rem;
+}
+
+.search-bar .field {
+  font-size: 1.2rem;
+}
+
+.field label {
+  padding-bottom: 0.5rem;
+}

@@ -1,0 +1,10 @@
+.app-content {
+  display: grid !important;
+  grid-gap: 1.5rem;
+  grid-template-columns: 5fr 3fr !important;
+}
+@media (max-width: 1000px) {
+  .app-content {
+    grid-template-columns: 1fr !important;
+  }
+}

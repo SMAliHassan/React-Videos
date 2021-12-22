@@ -1,0 +1,30 @@
+.video-detail {
+  border: 1px solid rgb(192, 192, 192);
+  padding: 0.5rem;
+  max-height: 40rem;
+}
+@media (max-width: 1000px) {
+  .video-detail {
+    margin-bottom: 2rem;
+  }
+}
+
+.video-detail__video-frame {
+  width: 100%;
+  height: 409px;
+}
+
+@media (max-width: 700px) {
+  .video-detail__video-frame {
+    height: 330px;
+  }
+}
+@media (max-width: 400px) {
+  .video-detail__video-frame {
+    height: 250px;
+  }
+}
+
+.video-detail__content {
+  padding-top: 0.5rem;
+}

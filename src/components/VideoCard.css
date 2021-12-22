@@ -1,0 +1,37 @@
+.video-card {
+  padding: 0.5rem 0;
+  display: flex;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.video-card:first-child {
+  padding-top: 0;
+}
+
+.video-card__img {
+  max-width: 16rem;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  .video-card__img {
+    max-width: 12rem;
+  }
+}
+@media (max-width: 400px) {
+  .video-card__img {
+    max-width: 11rem;
+  }
+}
+
+.video-card__content {
+  padding-left: 0.5rem;
+  max-width: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.video-card__video-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
