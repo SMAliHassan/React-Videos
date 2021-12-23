@@ -8,6 +8,7 @@ const SearchBar = ({ onTermSubmit }) => {
   const formSubmitHandler = e => {
     e.preventDefault();
 
+    e.target.querySelector('input[type=text]').blur();
     onTermSubmit(searchTerm);
   };
 
