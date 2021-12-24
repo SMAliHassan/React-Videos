@@ -5,8 +5,8 @@ import './VideoCard.css';
 const VideoCard = function ({ video, onVideoSelect }) {
   const thumbnail = video.snippet.thumbnails.medium.url;
   const videoTitle =
-    video.snippet.title.length > 40
-      ? video.snippet.title.slice(0, 40) + '...'
+    video.snippet.title.length > 42
+      ? video.snippet.title.slice(0, 42) + '...'
       : video.snippet.title;
   const channelTitle = video.snippet.channelTitle;
 
