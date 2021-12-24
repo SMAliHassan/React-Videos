@@ -10,7 +10,7 @@
 }
 
 .video-card__img {
-  max-width: 16rem;
+  max-width: 14rem;
 }
 @media (max-width: 1200px) and (min-width: 1000px) {
   .video-card__img {
@@ -32,6 +32,7 @@
 }
 
 .video-card__video-title {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
+  line-height: 1.2;
   font-weight: 600;
 }
